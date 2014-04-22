@@ -10,9 +10,6 @@ clickSubmit.onclick = submit;
 
 function submit(userName, userEmail) {
   alert("sending email");
+  ref.push({id: userName, email: userEmail});
   return false;
 }
-
-             function submit(userName, userEmail) {
-               ref.set({id: userName, email: userEmail});
-               };
