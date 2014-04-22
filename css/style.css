@@ -4,13 +4,19 @@ body {
 	background-image: url(http://cdn.home-designing.com/wp-content/uploads/2013/10/classic-living-room.jpeg); /*Place holder background could be at http://nisthaonweb.com/blog/wp-content/uploads/2014/03/laptop1.jpg*/ 
 	background-size: 100%;
 	background-repeat: no-repeat;
+	background: #000000;
 }	
+br {
+	line-height: 1%;
+}
 .content {
 	width: 35%;
-	margin: 3em;
+	min-width: 17em;
+	padding: 5%;
+	margin: 5%;
 	background: rgba(225, 225, 225, 0.23);
 	text-align: right;
-	height: 30em;
+	height: 30%;
 	float: right;
 	/*Font*/
 	color: white;
@@ -38,9 +44,7 @@ nav {
 .btn {
 	border-radius: 5px 20px 5px;
 	display: block;
-	width: 8em;
-	margin: 1em;
-	margin-top: 1em;
+	width: 35%;
 	padding: 1em;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -61,7 +65,7 @@ a:hover {
 }
 input[type="email"] {
 	font: 14px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
-	width: 15em;
+	width: 80%;
 	padding: 1em;
 	margin: 1em;
 	background: rgba(0, 0, 0, 0.5);
@@ -69,6 +73,7 @@ input[type="email"] {
 	color: white;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: center;
 }
 #email-input {
 	margin-right: auto;
