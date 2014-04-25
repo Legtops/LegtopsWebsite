@@ -45,6 +45,7 @@ footer {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	border: none;
 }
 input[type="submit"] {
 	color: white;
