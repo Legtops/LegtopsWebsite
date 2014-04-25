@@ -46,14 +46,14 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 }
-a {
+input[type="submit"] {
 	color: white;
 	background: #2181d1;
 	text-decoration: none;
 	margin-right: auto;
 	margin-left: auto;
 }
-a:hover {
+input[type="submit"]:hover {
 	color: white;
 	background: #05a4eb;
 }
