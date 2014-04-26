@@ -5,7 +5,7 @@ var userEmail = document.getElementById("email-input").value;
 var userName = "Placeholder";
 
 var clickSubmit = document.getElementById("submitButton");
-clickSubmit.onclick = submit;
+clickSubmit.onClick = submit;
 
 
 function submit(userName, userEmail) {
