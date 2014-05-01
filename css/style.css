@@ -14,9 +14,9 @@ br {
 	padding: 5%;
 	margin: 5%;
 	background: rgba(225, 225, 225, 0.23);
-	text-align: right;
 	height: 30%;
-	float: right;
+	margin-left: auto;
+	margin-right: auto;
 	/*Font*/
 	color: white;
 	font: 26px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
