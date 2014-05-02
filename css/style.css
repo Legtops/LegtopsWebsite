@@ -31,7 +31,8 @@ br {
 footer {
 	background: rgba(225, 225, 225, 0.23);
 	width: 100%;
-	padding: 2em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	color: white;
 	font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
 }
@@ -76,4 +77,7 @@ input[type="email"] {
 #email-input {
 	margin-right: auto;
 	margin-left: auto;
+}
+.success-class {
+	content: "Thank you!"
 }
