@@ -14,9 +14,9 @@ br {
 	padding: 5%;
 	margin: 5%;
 	background: rgba(225, 225, 225, 0.23);
-	text-align: right;
 	height: 30%;
-	float: right;
+	margin-left: auto;
+	margin-right: auto;
 	/*Font*/
 	color: white;
 	font: 26px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -31,9 +31,11 @@ br {
 footer {
 	background: rgba(225, 225, 225, 0.23);
 	width: 100%;
-	padding: 2em;
+	padding-top: .5em;
+	padding-bottom: 1em;
 	color: white;
 	font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+	bottom: 0;
 }
 .btn {
 	border-radius: 5px 20px 5px;
@@ -58,6 +60,9 @@ input[type="submit"]:hover {
 	color: white;
 	background: #05a4eb;
 }
+input[type="submit"]:disabled {
+	color: rgb(200,200,200);
+}
 input[type="email"] {
 	font: 14px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
 	width: 80%;
@@ -73,4 +78,7 @@ input[type="email"] {
 #email-input {
 	margin-right: auto;
 	margin-left: auto;
+}
+.success-class {
+	content: "Thank you!"
 }

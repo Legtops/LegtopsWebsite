@@ -1,38 +1,40 @@
-<!--This page is a listing for the other websites I create-->
-
 <!DOCTYPEhtml>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>10 Websites 10 Days</title>
+    <title>Legs for your Laptop!</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <!--Resources-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdn.firebase.com/v0/firebase.js"></script>
 </head>
 <body>
     <div class="content">
         <div class="text-area">
-            <h1>Ascendr</h1>
-            <h4>Laptop overheating?</h4> <h4>Dust getting into the fan?</h4> <h4>Ascend all that.</h4>
-            <h5>Ascendr is a new way for laptops to get a breath of fresh air, allowing your laptop's fans to work efficiently and prevent overheating. Need to use your laptop on the go? Ascendr's legs fold up small enough to fit into most laptop cases so you don't even have to take it off.</h5>
-            
-            <form id="EmailSelector">
-                <input id="email-input" type="email" placeholder="Enter your email for  early access" value="">
-                <input type="submit" id="submitButton" class="btn" value="Pre-order">
-            </form>
-            <script  src="https://s3.amazonaws.com/fireform/fireform.min.js"></script>
-            <script>
-              new Fireform('#EmailSelector', 'http://fireform.org/list/186/Ascendr');
-            </script>
+            <h1>Legtops</h1>
+            <h4>Open-source</h4> <h4>Customizable</h4> <h4>Heat-killing</h4>
+            <h5>Legtops is a new way for laptops to get a breath of fresh air, allowing your laptop's fans to work efficiently and prevent overheating. Need to use your laptop on the go? Legtops fold up small enough to fit into most laptop cases so you don't even have to take them off.</h5>
+            <div class="UserInput">
+            <!--User input area-->
+                <input id="emailInput" type="email" placeholder="Enter your email for early access" value="">
+            <!--User submit button-->
+                <input type="submit" value="submit" id="submitButton" class="btn" value="Pre-order" onClick="submit(userEmail);">
+            </div>
         </div>
     </div>
-    <!--Footer
+    
     <footer>
-        <p>© 2014 Company</p>
-    </footer>-->
+        <p>© 2014 <a href="https://github.com/Legtops/LegtopsModels">Legtops</a></p>
+    </footer>
+    
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.js"></script>
-    <script src="https://cdn.firebase.com/v0/firebase.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+    var ref = new Firebase("https://rizer-email.firebaseio.com/contacts"); /*Initialize firebase*/
+
+    var userEmail = document.getElementById("emailInput").value; /*Read the email the user typed in*/
+
+    </script>
 </body>
 </html>
