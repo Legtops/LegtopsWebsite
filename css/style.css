@@ -75,6 +75,18 @@ input[type="email"] {
 	margin-left: auto;
 	text-align: center;
 }
+textarea {
+	font: 14px "Helvetica Neue",Helvetica Neue,Helvetica,Arial,sans-serif;
+	width: 80%;
+	padding: 1em;
+	margin: 1em;
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
 #email-input {
 	margin-right: auto;
 	margin-left: auto;
