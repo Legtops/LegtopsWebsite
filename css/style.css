@@ -6,6 +6,7 @@ html {
 	margin: 0;
 }
 body {
+	background: fixed;
 	width: 100%;
 	margin: 0;
 	background-size: 100%;
@@ -16,7 +17,6 @@ body {
 }
 #version-2 {
 	background-image: url(../img/bg5.jpg); /*Place holder background could be at http://nisthaonweb.com/blog/wp-content/uploads/2014/03/laptop1.jpg*/ 
-
 }
 br {
 	line-height: 1%;
@@ -27,6 +27,7 @@ br {
 	padding: 5%;
 	margin: 5%;
 	margin-top: 0%;
+	padding-top: 3%;
 	background: rgba(225, 225, 225, 0.23);
 	height: 30%;
 	margin-left: auto;
@@ -100,6 +101,9 @@ textarea {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+}
+h4 {
+	line-height: 0.5em;
 }
 #email-input {
 	margin-right: auto;
